@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codepen</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/icons/send.svg" type="image/x-icon">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.31.1/min/vs/loader.js"></script>
+<script src="https://unpkg.com/emmet-monaco-es/dist/emmet-monaco.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="menu">
+        <button class="btn" onclick="open_terminal()" id="terminal"><img src="./img/icons/terminal-2.svg" alt="" class="icons">
+        <span class="punto"></span>
+        </button>
+    </nav>
+    <div class="consola">
+        <nav class="menu2">
+          
+            <img src="./img/icons/cancel.svg"  onclick="recet()" class="icon">
+   <img src="./img/icons/square-x.png" onclick="closet()" class="icon">
+        </nav>
+        <p class="p">Consola de javascript</p>
+    </div>
+    <header class="app">
+        <div class="tab">
+            <div class="editor" id="editor-html"></div>
+           <p class="p"></p> <img src="./img/icons/html5 (1).svg" alt="" class="lens">
+        </div>
+
+        <div class="tab">
+            <div class="editor" id="editor-css"></div>
+            <img src="./img/icons/css (1).svg" alt="" class="lens">
+        </div>
+
+        <div class="tab">
+            <div class="editor" id="editor-js"></div>
+            <img src="./img/icons/javascript (1).svg" alt="" class="lens">
+        </div>
+        <div class="tab">
+            
+    <iframe src="" frameborder="0" class="editor" srcdoc="hola desde un nuevo codepen" id="preview"></iframe>
+
+        </div>
+    
+    </header>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
+

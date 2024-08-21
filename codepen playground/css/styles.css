@@ -1,0 +1,95 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+background: #333;
+display: flex;
+}
+.menu{
+    background: #333;
+}
+.app{
+    width: 100%;
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 50%  50%; 
+    grid-template-rows: 1fr 1fr;
+}
+.editor{
+    background: #555;
+    width: 100% ;
+    height: 100%;
+}
+.tab{
+    width: 100%;
+    height: 50dvh;
+
+}
+.tab:hover .lens{
+    opacity: 0;
+
+}
+.lens{
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: 20px;
+  
+    transition: .5s;
+}
+
+.consola{
+    width: 100%;
+    height: 20dvh;
+position: fixed;
+bottom: 0;
+    background: #222; 
+    z-index: 1111111111;
+    transition: .5s transform;
+.p{
+    color: #ccc;
+}
+}
+.menu2{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    padding: 5px 5px;
+    border: 1px solid #444;
+    box-sizing: border-box;
+    background: #333;
+}
+.icon{
+    width: 20px; 
+    color: #444; 
+    filter: invert(1);
+
+
+}
+.btn{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+.icons{
+width: 30px !important;
+filter: invert(.4);
+margin: 0 auto;
+ 
+}
+.punto{
+    width: 5px;
+    padding: .5px;
+    height: 5px; 
+    display: block;
+    background: red;
+margin-top: -5px;
+margin-left: 25px;
+border-radius: 100%;
+transition: .5s opacity;
+opacity: 0;
+
+}
+}
